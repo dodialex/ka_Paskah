@@ -1,5 +1,5 @@
 import React from 'react'
-import {H_atas, BlankAndText, Card1} from '../../components/home';
+import {H_atas, BlankAndText, Card1, Card2} from '../../components/home';
 const Home = () => {
     return (
         <div>
@@ -9,6 +9,7 @@ const Home = () => {
             created over the years, incluiding branded content, music, video
             and the passion project we are espesially proud of.' />
             <Card1/>
+            <Card2/>
         </div>
     )
 }
