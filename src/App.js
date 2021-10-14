@@ -1,12 +1,17 @@
 import './App.css';
-import { Header, Paralax, Cardnya } from './components/big';
+import { Header, Paralax, Cardnya, Gambarlah } from './components/big';
+import { Home } from './pages';
 
 function App() {
   return (
     <div>
-      {/* <Header /> */}
+      <Home />
+
+
+      {/* <Header />
       <Paralax />
       <Cardnya />
+      <Gambarlah /> */}
     </div>
   );
 }

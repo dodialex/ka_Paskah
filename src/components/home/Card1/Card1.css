@@ -1,0 +1,30 @@
+.cardd {
+    background-color: grey !important;
+    border-width: 0px !important;
+    height: 250px !important;
+    width: 120%;
+    border-radius: 10px;
+    margin-left: -10%;
+
+}
+
+.img {
+    background-color: gainsboro;
+    border-radius: 30px;
+
+
+}
+
+.tengah {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+
+.text1 {
+    color: white;
+    margin-top: 150px !important;
+}
+.text2 {
+    color: white;
+}
+

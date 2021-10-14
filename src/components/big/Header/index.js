@@ -9,9 +9,9 @@ const Header = () => {
                 <Navbar.Brand style={textNav} href="#home">LOGO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="me-auto"></Nav>
+                    <Nav className="me-auto"></Nav>
 
-                    </Nav>
                     <Nav className="me-auto" >
                         <Nav.Link style={textNav}>Home</Nav.Link>
                         <Nav.Link style={textNav}>ShowReel</Nav.Link>
@@ -38,9 +38,8 @@ const Header = () => {
 
                         <Nav.Link style={textNav}>Contact</Nav.Link>
                     </Nav>
-                    <Nav className="me-auto">
 
-                    </Nav>
+                    <Nav className="me-auto"></Nav>
                 </Navbar.Collapse>
             </Navbar>
         </div >
