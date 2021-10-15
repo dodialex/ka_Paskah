@@ -13,13 +13,13 @@ const Header = () => {
                         width="70"
                         height="70"
                         className="d-inline-block"
-                        alt="React Bootstrap logo"
+                        alt="this a logo,check u'r connection internet"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
 
-                    <Nav className="me-auto" >
+                    <Nav className="me-auto">
                         <Nav.Link className='textNav'>HOME</Nav.Link>
                         <Nav.Link className='textNav'>SHOWREEL</Nav.Link>
                         <Nav.Link className='textNav'>PORTOFOLIO</Nav.Link>

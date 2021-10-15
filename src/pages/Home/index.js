@@ -1,5 +1,6 @@
 import React from 'react'
 import {H_atas, BlankAndText, Card1, Card2} from '../../components/home';
+import {Footer} from '../../components/big';
 const Home = () => {
     return (
         <div>
@@ -10,6 +11,7 @@ const Home = () => {
             and the passion project we are espesially proud of.' />
             <Card1/>
             <Card2/>
+            {/* <Footer/> */}
         </div>
     )
 }
