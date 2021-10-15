@@ -1,10 +1,9 @@
 import React from 'react';
 import { Container, Navbar, Nav, NavDropdown, OverlayTrigger, Popover } from 'react-bootstrap';
-import './header.css'
 import { NavLink, Link } from 'react-router-dom'
 
 
-const Header = () => {
+const Showreel = () => {
     return (
         <Container style={con}>
             <Navbar collapseOnSelect expand="lg">
@@ -76,7 +75,7 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Showreel
 
 
 const navvv = {

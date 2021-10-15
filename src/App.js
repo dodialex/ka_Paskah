@@ -1,11 +1,13 @@
 import './App.css';
 import { Header, Paralax, Cardnya, Gambarlah } from './components/big';
-import { Home } from './pages';
+import Router from './Router';
 
 function App() {
   return (
     <div>
-      <Home />
+
+      <Router />
+      {/* <Home /> */}
 
 
       {/* <Header />

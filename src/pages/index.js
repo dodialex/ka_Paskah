@@ -1,3 +1,4 @@
 import Home from './Home';
+import Showreel from './Showreel'
 
-export { Home };
+export { Home, Showreel };

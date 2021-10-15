@@ -3,6 +3,8 @@ import { Parallax } from 'react-parallax';
 import { Button } from 'react-bootstrap';
 import Header from '../Header';
 import './H_atas.css';
+import { NavLink, Link } from 'react-router-dom'
+
 
 const insideStyles = {
     background: 'none',
@@ -25,7 +27,11 @@ const H_atas = () => {
             <Parallax style={para} bgImage={''} strength={500}>
                 <Header className='header' />
                 <div style={{ height: 800 }}>
-                    <Button style={insideStyles}>ANIMATION SHOWREEL</Button>
+                    <Button style={insideStyles}>
+                        <NavLink to='/showreel' style={link}>
+                            ANIMATION SHOWREEL
+                            </NavLink>
+                    </Button>
                 </div>
             </Parallax>
 
@@ -37,4 +43,8 @@ export default H_atas;
 
 const para = {
     backgroundColor: 'grey'
+}
+const link = {
+    textDecoration: 'none',
+    color: 'white',
 }
