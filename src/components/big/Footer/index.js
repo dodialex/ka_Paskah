@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Image, Row, Col, Card, Navbar } from 'react-bootstrap'
 import { TitleFooter } from '../../small'
+import { Link } from 'react-router-dom'
 
 const Footer = ({ text1, text2, text3 }) => {
     return (
@@ -8,29 +9,60 @@ const Footer = ({ text1, text2, text3 }) => {
             <Card style={di}>
                 <Container style={container}>
                     <Row xs={2} md={6}>
+
                         <Col md={{ span: 3 }}>
                             <TitleFooter title="Our Work" />
-                            <TitleFooter text="Animation Showreel" />
-                            <TitleFooter text="Animation Portofolio" />
-                            <TitleFooter text="Animation Archive" />
-                            <TitleFooter text="Lottie Animations" />
-                            <TitleFooter text="Dribble GIFs" />
-                            <TitleFooter text="Animation blog" />
+                            <Link to='/showreel' style={link}>
+                                <TitleFooter text="Animation Showreel" />
+                            </Link>
+                            <Link to='/portofolio' style={link}>
+                                <TitleFooter text="Animation Portofolio" />
+                            </Link>
+                            <Link to='/' style={link}>
+                                <TitleFooter text="Animation Archive" />
+                            </Link>
+                            <Link to='/' style={link}>
+                                <TitleFooter text="Lottie Animations" />
+                            </Link>
+                            <Link to='/' style={link}>
+                                <TitleFooter text="Dribble GIFs" />
+                            </Link>
+                            <Link to='/' style={link}>
+                                <TitleFooter text="Animation blog" />
+                            </Link>
                         </Col>
                         <Col style={margin} md={{ offset: 1 }}>
                             <TitleFooter title="Info" />
-                            <TitleFooter text="About Us" />
-                            <TitleFooter text="Animation Process" />
-                            <TitleFooter text="Contact Us" />
+                            <Link to='/about' style={link}>
+                                <TitleFooter text="About Us" />
+                            </Link>
+                            <Link to='/animationprocess' style={link}>
+                                <TitleFooter text="Animation Process" />
+                            </Link>
+                            <Link to='/contact' style={link}>
+                                <TitleFooter text="Contact Us" />
+                            </Link>
                         </Col>
                         <Col xs={{ span: 6, offset: 5 }} md={{ span: 2, offset: 1 }}>
                             <TitleFooter title="Social" />
-                            <TitleFooter text="YouTube" />
-                            <TitleFooter text="Vimeo" />
-                            <TitleFooter text="Instagram" />
-                            <TitleFooter text="Facebook" />
-                            <TitleFooter text="Twitter" />
-                            <TitleFooter text="Tiktok" />
+                            <Link to='https://www.youtube.com/' style={link}>
+                                <TitleFooter text="YouTube" />
+                            </Link>
+                            <Link to='https://vimeo.com/' style={link}>
+                                <TitleFooter text="Vimeo" />
+                            </Link>
+                            <Link to='https://www.instagram.com/' style={link}>
+                                <TitleFooter text="Instagram" />
+                            </Link>
+                            <Link to='https://id-id.facebook.com/' style={link}>
+                                <TitleFooter text="Facebook" />
+                            </Link>
+                            <Link to='https://twitter.com/'>
+                                <TitleFooter text="Twitter" />
+                            </Link>
+                            <Link to='https://www.tiktok.com/id-ID/' style={link}>
+                                <TitleFooter text="Tiktok" />
+                            </Link>
                         </Col>
                     </Row>
 
@@ -48,7 +80,7 @@ const Footer = ({ text1, text2, text3 }) => {
 
                             <Navbar.Brand href="https://vimeo.com/">
                                 <img
-                                    src="https://cdn-icons.flaticon.com/png/512/3992/premium/3992556.png?token=exp=1634321130~hmac=cc3468865c57d0ad2306693d983de59c"
+                                    src="https://cdn-icons-png.flaticon.com/128/49/49601.png"
                                     width="20"
                                     height="20"
                                     className="d-inline-block align-top"
@@ -126,5 +158,8 @@ const container = {
 }
 const img = {
     marginTop: '-15%'
+}
+const link = {
+    textDecoration: 'none',
 }
 

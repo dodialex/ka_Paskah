@@ -35,7 +35,7 @@ const Header = () => {
                             </NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink to='/portofolio' style={link}>
+                                <NavLink to='/portofolio' style={linkActive}>
                                     PORTOFOLIO
                             </NavLink>
                             </Nav.Link>
@@ -46,20 +46,20 @@ const Header = () => {
                                     key={placement}
                                     placement={placement}
                                     overlay={
-                                        <Popover id={`popover-positioned-${placement}`} style={box}>
+                                        <Popover id={`popover-positioned-${placement}`}>
                                             <Popover.Body>
                                                 <NavDropdown.Item>
-                                                    <NavLink to='/about' style={linkAbout}>
+                                                    <NavLink to='/about' style={link}>
                                                         ABOUT US
                                                     </NavLink>
                                                 </NavDropdown.Item>
                                                 <NavDropdown.Item>
-                                                    <NavLink to='/team' style={linkAbout}>
+                                                    <NavLink to='/team' style={link}>
                                                         TEAM
                                                     </NavLink>
                                                 </NavDropdown.Item>
                                                 <NavDropdown.Item>
-                                                    <NavLink to='/animationprocess' style={linkAbout}>
+                                                    <NavLink to='/animationprocess' style={link}>
                                                         ANIMATION PROCESS
                                                     </NavLink>
                                                 </NavDropdown.Item>
@@ -90,29 +90,19 @@ const Header = () => {
 
 export default Header
 
-
-const navvv = {
-    marginLeft: '50px',
-}
-
 const link = {
     textDecoration: 'none',
-    color: 'white',
+    color: '#7c7c7c',
     fontWeight: '500'
 }
-const linkAbout = {
+const linkActive = {
     textDecoration: 'none',
-    color: '#7c7c7c',
-    fontWeight: '500',
-
-}
-const box = {
-    backgroundColor: 'white',
-    borderWidth: '0'
+    color: '#ea5b23',
+    fontWeight: '500'
 }
 const nBrand = {
     marginLeft: '29%'
 }
 const con = {
-    marginTop: '5%'
+    marginTop: '5%',
 }
