@@ -1,6 +1,7 @@
 import React from 'react'
-import {H_atas, BlankAndText, Card1, Card2} from '../../components/home';
-import {Footer} from '../../components/big';
+import { H_atas, BlankAndText, Card1, Card2 } from '../../components/home';
+import { Footer } from '../../components/big';
+import { Container } from 'react-bootstrap';
 const Home = () => {
     return (
         <div>
@@ -11,7 +12,7 @@ const Home = () => {
             and the passion project we are espesially proud of.' />
             <Card1/>
             <Card2/>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 }
