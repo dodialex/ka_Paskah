@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const Footer = ({ title, text }) => {
     return (
@@ -15,10 +15,13 @@ const Footer = ({ title, text }) => {
 
 export default Footer;
 const title1 = {
-    color: '#3a668b',
-    fontWeight: 'bold'
+    color: '#29455b',
+    fontWeight: '900',
+    fontSize: '13px'
 }
 const text1 = {
-    color: '#3a668b',
-    marginBottom: '-5%'
+    color: '#29455b',
+    marginBottom: '-5%',
+    fontSize: '11px',
+    fontWeight: '600',
 }

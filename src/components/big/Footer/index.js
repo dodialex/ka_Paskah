@@ -57,7 +57,7 @@ const Footer = ({ text1, text2, text3 }) => {
                             <Link to='https://id-id.facebook.com/' style={link}>
                                 <TitleFooter text="Facebook" />
                             </Link>
-                            <Link to='https://twitter.com/'>
+                            <Link to='https://twitter.com/' style={link}>
                                 <TitleFooter text="Twitter" />
                             </Link>
                             <Link to='https://www.tiktok.com/id-ID/' style={link}>
@@ -152,8 +152,7 @@ const margin = {
 
 const container = {
     paddingTop: '5%',
-    paddingBottom: '5%',
-    paddingRight: '-10%'
+    paddingRight: '-10%',
 
 }
 const img = {
@@ -162,4 +161,3 @@ const img = {
 const link = {
     textDecoration: 'none',
 }
-

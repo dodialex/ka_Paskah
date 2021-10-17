@@ -27,6 +27,6 @@ const row = {
 }
 const card = {
     backgroundColor: '#d9d9d9',
-    height: '1040px',
+    height: '500px',
     borderRadius: '45px'
 }
