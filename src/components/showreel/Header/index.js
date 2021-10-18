@@ -48,15 +48,21 @@ const Header = () => {
                                     overlay={
                                         <Popover id={`popover-positioned-${placement}`}>
                                             <Popover.Body>
-                                                <NavDropdown.Item href='/about' style={link}>
-                                                    ABOUT US
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item href='/team' style={link}>
-                                                    TEAM
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item href='/animationprocess' style={link}>
-                                                    ANIMATION PROCESS
-                                                </NavDropdown.Item>
+                                                <Nav.Link>
+                                                    <NavLink to='/about' style={link}>
+                                                        ABOUT US
+                                                    </NavLink>
+                                                </Nav.Link>
+                                                <Nav.Link>
+                                                    <NavLink to='/team' style={link}>
+                                                        TEAM
+                                                    </NavLink>
+                                                </Nav.Link>
+                                                <Nav.Link>
+                                                    <NavLink to='/animationprocess' style={link}>
+                                                        ANIMATION PROCESS
+                                                    </NavLink>
+                                                </Nav.Link>
                                             </Popover.Body>
                                         </Popover>
                                     }

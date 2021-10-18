@@ -48,15 +48,21 @@ const Header = () => {
                                     overlay={
                                         <Popover id={`popover-positioned-${placement}`} style={box}>
                                             <Popover.Body>
-                                                <NavDropdown.Item href='/about' style={linkAbout}>
-                                                    ABOUT US
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item href='/team' style={linkAbout}>
-                                                    TEAM
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item href='/animationprocess' style={linkAbout}>
-                                                    ANIMATION PROCESS
-                                                </NavDropdown.Item>
+                                                <Nav.Link>
+                                                    <NavLink to='/about' style={linkAbout}>
+                                                        ABOUT US
+                                                    </NavLink>
+                                                </Nav.Link>
+                                                <Nav.Link>
+                                                    <NavLink to='/team' style={linkAbout}>
+                                                        TEAM
+                                                    </NavLink>
+                                                </Nav.Link>
+                                                <Nav.Link>
+                                                    <NavLink to='/animationprocess' style={linkAbout}>
+                                                        ANIMATION PROCESS
+                                                    </NavLink>
+                                                </Nav.Link>
                                             </Popover.Body>
                                         </Popover>
                                     }
