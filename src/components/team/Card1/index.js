@@ -4,7 +4,7 @@ import { Row, Col, Image, Container } from 'react-bootstrap';
 const Card1 = ({ src, name, teks, teks2, teks3, teks4, teks5, teks6 }) => {
     return (
         <div>
-            <Container>
+            <Container fluid>
                 <Row xs={1} md={2} style={row}>
                     <Col md={{ offset: 2 }} xs={{ offset: 2 }} style={col1}>
                         <Image
@@ -37,11 +37,13 @@ const row = {
 const image = {
     height: '100%',
     width: '100%',
-    backgroundColor: '#d9d9d9'
+    backgroundColor: '#d9d9d9',
+    borderWidth: 'none'
 }
 const col1 = {
-    height: '250px',
-    width: '250px',
+    height: '350px',
+    width: '350px',
+    marginLeft: 'auto'
 }
 const col2 = {
 }

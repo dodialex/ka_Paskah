@@ -22,9 +22,12 @@ const Peta = () => {
                         <Card style={card}>
                             <Mapnya />
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
+                                <p>teks 1</p>
+                                <p>teks 2</p>
+                                <p>teks 3</p>
+                                <p>teks 4</p>
+                                <p>teks 5</p>
+                            </Card.Text>
                         </Card>
                     </Col>
 

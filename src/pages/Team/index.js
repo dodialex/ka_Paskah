@@ -14,7 +14,10 @@ const Team = () => {
                 teks='Boosted Animations Team'
                 teks5='We asked our animators to create animated self-potraits of themselves.'
                 teks6='Then we wrote biographies for them. You can see the work everyone has created in our animation portfolio.' />
-            <Card1 name='Nama' 
+            <p style={br} />
+            <Card1 
+                src='https://cdn.pixabay.com/photo/2021/10/12/21/14/web-6704764__340.jpg'
+                name='Nama' 
                 teks='Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
@@ -27,7 +30,9 @@ const Team = () => {
                 sunt in culpa qui officia deserunt mollit
                 anim id est laborum.' />
 
-            <Card1 name='Nama' 
+            <Card1 
+                src='https://cdn.pixabay.com/photo/2020/04/01/01/02/science-4989678__340.png'
+                name='Nama' 
                 teks='Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
@@ -40,7 +45,9 @@ const Team = () => {
                 sunt in culpa qui officia deserunt mollit
                 anim id est laborum.' />
 
-            <Card1 name='Nama' 
+            <Card1 
+                src='https://cdn.pixabay.com/photo/2021/10/02/08/31/apples-6674608__340.jpg'
+                name='Nama' 
                 teks='Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.

@@ -1,22 +1,24 @@
 import React from 'react';
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col, Container } from 'react-bootstrap';
 const Card1 = () => {
     return (
         <div>
-            <Row xs={1} md={1} style={row}>
-                <Col md={12} >
-                    <Card style={card}>
-                        <Card.Body>
-                            <Card.Img />
-                            <Card.ImgOverlay>
-                                <Card.Title></Card.Title>
-                                <Card.Text></Card.Text>
-                            </Card.ImgOverlay>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-        </div>
+            <Container fluid>
+                <Row style={row}>
+                    <Col>
+                        <Card style={card}>
+                            <Card.Body>
+                                <Card.Img />
+                                <Card.ImgOverlay>
+                                    <Card.Title></Card.Title>
+                                    <Card.Text></Card.Text>
+                                </Card.ImgOverlay>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+        </div >
     )
 }
 
@@ -28,5 +30,5 @@ const row = {
 const card = {
     backgroundColor: '#d9d9d9',
     height: '500px',
-    borderRadius: '45px'
+    borderRadius: '20px'
 }

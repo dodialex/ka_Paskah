@@ -5,47 +5,49 @@ import './Card1.css';
 const Card1 = () => {
     return (
         <div style={di}>
-            <Row xs={1} md={3} style={row} xxl={3}>
-                <Col className='tengah'>
-                    <Card className='cardd'>
-                        <Card.Img className='img' />
-                        <Card.ImgOverlay>
-                            <Card.Title className='text1'>Logo</Card.Title>
-                            <Card.Text className='text2'>
-                                Animations
+            <Container>
+                <Row xs={1} md={3} style={row}>
+                    <Col className='tengah'>
+                        <Card className='cardd'>
+                            <Card.Img className='img' />
+                            <Card.ImgOverlay>
+                                <Card.Title className='text1'>Logo</Card.Title>
+                                <Card.Text className='text2'>
+                                    Animations
                                 </Card.Text>
-                        </Card.ImgOverlay>
-                    </Card>
-                </Col>
+                            </Card.ImgOverlay>
+                        </Card>
+                    </Col>
 
 
-                <Col className='tengah'>
-                    <Card className='cardd'>
-                        <Card.Img className='img' />
-                        <Card.ImgOverlay>
-                            <Card.Title className='text1'>Video</Card.Title>
-                            <Card.Text className='text2'>
-                                Animations
+                    <Col className='tengah'>
+                        <Card className='cardd'>
+                            <Card.Img className='img' />
+                            <Card.ImgOverlay>
+                                <Card.Title className='text1'>Video</Card.Title>
+                                <Card.Text className='text2'>
+                                    Animations
                                 </Card.Text>
-                        </Card.ImgOverlay>
-                    </Card>
-                </Col>
+                            </Card.ImgOverlay>
+                        </Card>
+                    </Col>
 
 
 
-                <Col className='tengah'>
-                    <Card className='cardd'>
-                        <Card.Img className='img' />
-                        <Card.ImgOverlay>
-                            <Card.Title className='text1'>Graphic</Card.Title>
-                            <Card.Text className='text2'>
-                                Design
+                    <Col className='tengah'>
+                        <Card className='cardd'>
+                            <Card.Img className='img' />
+                            <Card.ImgOverlay>
+                                <Card.Title className='text1'>Graphic</Card.Title>
+                                <Card.Text className='text2'>
+                                    Design
                                 </Card.Text>
-                        </Card.ImgOverlay>
-                    </Card>
-                </Col>
-                <Col></Col>
-            </Row>
+                            </Card.ImgOverlay>
+                        </Card>
+                    </Col>
+
+                </Row>
+            </Container>
         </div >
     )
 }
