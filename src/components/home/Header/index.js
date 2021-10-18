@@ -48,20 +48,14 @@ const Header = () => {
                                     overlay={
                                         <Popover id={`popover-positioned-${placement}`} style={box}>
                                             <Popover.Body>
-                                                <NavDropdown.Item>
-                                                    <NavLink to='/about' style={linkAbout}>
-                                                        ABOUT US
-                                                    </NavLink>
+                                                <NavDropdown.Item href='/about' style={linkAbout}>
+                                                    ABOUT US
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item>
-                                                    <NavLink to='/team' style={linkAbout}>
-                                                        TEAM
-                                                    </NavLink>
+                                                <NavDropdown.Item href='/team' style={linkAbout}>
+                                                    TEAM
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item>
-                                                    <NavLink to='/animationprocess' style={linkAbout}>
-                                                        ANIMATION PROCESS
-                                                    </NavLink>
+                                                <NavDropdown.Item href='/animationprocess' style={linkAbout}>
+                                                    ANIMATION PROCESS
                                                 </NavDropdown.Item>
                                             </Popover.Body>
                                         </Popover>

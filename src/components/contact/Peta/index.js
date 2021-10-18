@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Row, Col, Container, Form, InputGroup, Button } from 'react-bootstrap';
-
+import { Row, Image, Col, Container, Form, InputGroup, Button, Card } from 'react-bootstrap';
+import Mapnya from '../Mapnya'
 const Peta = () => {
     const [validated, setValidated] = useState(false);
 
@@ -19,7 +19,13 @@ const Peta = () => {
             <Container>
                 <Row xs={1} md={2}>
                     <Col>
-
+                        <Card style={card}>
+                            <Mapnya />
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                                </Card.Text>
+                        </Card>
                     </Col>
 
 
@@ -100,7 +106,7 @@ const Peta = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
     )
 }
 
@@ -132,4 +138,7 @@ const btn = {
     backgroundColor: '#d9d9d9',
     borderColor: '#7f7f7f',
     color: 'black'
+}
+const card = {
+    width: '100%'
 }

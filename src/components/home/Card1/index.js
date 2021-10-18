@@ -5,7 +5,7 @@ import './Card1.css';
 const Card1 = () => {
     return (
         <div style={di}>
-            <Row xs={1} md={3} style={row}>
+            <Row xs={1} md={3} style={row} xxl={3}>
                 <Col className='tengah'>
                     <Card className='cardd'>
                         <Card.Img className='img' />

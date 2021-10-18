@@ -48,20 +48,14 @@ const Header = () => {
                                     overlay={
                                         <Popover id={`popover-positioned-${placement}`}>
                                             <Popover.Body>
-                                                <NavDropdown.Item>
-                                                    <NavLink to='/about' style={link}>
-                                                        ABOUT US
-                                                    </NavLink>
+                                                <NavDropdown.Item href='/about' style={link}>
+                                                    ABOUT US
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item>
-                                                    <NavLink to='/team' style={link}>
-                                                        TEAM
-                                                    </NavLink>
+                                                <NavDropdown.Item href='/team' style={link}>
+                                                    TEAM
                                                 </NavDropdown.Item>
-                                                <NavDropdown.Item>
-                                                    <NavLink to='/animationprocess' style={link}>
-                                                        ANIMATION PROCESS
-                                                    </NavLink>
+                                                <NavDropdown.Item href='/animationprocess' style={link}>
+                                                    ANIMATION PROCESS
                                                 </NavDropdown.Item>
                                             </Popover.Body>
                                         </Popover>
@@ -93,7 +87,8 @@ export default Header
 const link = {
     textDecoration: 'none',
     color: '#7c7c7c',
-    fontWeight: '500'
+    fontWeight: '500',
+    width: '100%'
 }
 const linkActive = {
     textDecoration: 'none',
