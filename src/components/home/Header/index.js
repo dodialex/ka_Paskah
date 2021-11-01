@@ -27,17 +27,17 @@ const Header = () => {
                             <Nav.Link>
                                 <NavLink to='/' style={link}>
                                     HOME
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
                             <Nav.Link>
                                 <NavLink to='/showreel' style={link}>
                                     SHOWREEL
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
                             <Nav.Link>
                                 <NavLink to='/portofolio' style={link}>
                                     PORTOFOLIO
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
 
                             {['bottom'].map((placement) => (
@@ -69,14 +69,14 @@ const Header = () => {
                                 >
                                     <Nav.Link style={link}>
                                         ABOUT
-                                </Nav.Link>
+                                    </Nav.Link>
                                 </OverlayTrigger>
                             ))}
 
                             <Nav.Link>
                                 <NavLink to='/contact' style={link}>
                                     CONTACT
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
 
                         </Nav>

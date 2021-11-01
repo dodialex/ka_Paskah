@@ -95,10 +95,11 @@ const Card2 = ({ text1, text2, text3 }) => {
 export default Card2;
 const row = {
     marginRight: '0.1rem',
-    marginLeft: '0.1rem'
+    marginLeft: '0.1rem',
+    marginTop: '-0.6%'
 }
 const divCard = {
-    marginTop: '30px',
+    marginTop: '35px',
     marginBottom: '3%',
     borderWidth: '0px',
 
@@ -109,7 +110,7 @@ const card = {
 }
 const img = {
     height: '350px',
-    borderRadius: '50px',
+    borderRadius: '25px',
     backgroundColor: 'gainsboro',
 }
 const textOverlay = {

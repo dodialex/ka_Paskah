@@ -98,7 +98,7 @@ const Peta = () => {
                                     <Form.Control
                                         style={pesan}
                                         required
-                                        type="text"
+                                        as="textarea"
                                         placeholder=""
                                     />
                                 </Form.Group>

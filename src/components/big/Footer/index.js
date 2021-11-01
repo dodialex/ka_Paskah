@@ -141,8 +141,8 @@ const divFooter = {
 }
 const di = {
     backgroundColor: 'grey',
-    borderTopLeftRadius: '50px',
-    borderTopRightRadius: '50px',
+    borderTopLeftRadius: '30px',
+    borderTopRightRadius: '30px',
     paddingRight: '-1%'
 }
 const margin = {
