@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Navbar, Nav, NavDropdown, OverlayTrigger, Popover } from 'react-bootstrap';
-import './header.css'
-import { NavLink, Link } from 'react-router-dom'
+import { Container, Nav, Navbar, OverlayTrigger, Popover } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
+import './header.css';
 
 
 const Header = () => {
@@ -27,17 +27,17 @@ const Header = () => {
                             <Nav.Link>
                                 <NavLink to='/' style={link}>
                                     HOME
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
                             <Nav.Link>
                                 <NavLink to='/showreel' style={linkActive}>
                                     SHOWREEL
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
                             <Nav.Link>
                                 <NavLink to='/portofolio' style={link}>
                                     PORTOFOLIO
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
 
                             {['bottom'].map((placement) => (
@@ -69,14 +69,14 @@ const Header = () => {
                                 >
                                     <Nav.Link style={link}>
                                         ABOUT
-                                </Nav.Link>
+                                    </Nav.Link>
                                 </OverlayTrigger>
                             ))}
 
                             <Nav.Link>
                                 <NavLink to='/contact' style={link}>
                                     CONTACT
-                            </NavLink>
+                                </NavLink>
                             </Nav.Link>
 
                         </Nav>

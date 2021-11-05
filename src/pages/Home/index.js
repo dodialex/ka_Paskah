@@ -1,7 +1,6 @@
-import React from 'react'
-import { H_atas, BlankAndText, Card1, Card2 } from '../../components/home';
+import React from 'react';
 import { Footer } from '../../components/big';
-import { Container } from 'react-bootstrap';
+import { BlankAndText, Card1, Card2, H_atas } from '../../components/home';
 const Home = () => {
     return (
         <div>

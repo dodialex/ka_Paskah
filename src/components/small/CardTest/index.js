@@ -1,5 +1,5 @@
-import React from 'react'
-import { Container, Card, Row, Col } from 'react-bootstrap'
+import React from 'react';
+import { Card } from 'react-bootstrap';
 
 const CardTest = ({ title, text, src }) => {
     return (

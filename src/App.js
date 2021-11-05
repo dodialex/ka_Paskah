@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Paralax, Cardnya, Gambarlah } from './components/big';
+// import { Header, Paralax, Cardnya, Gambarlah } from './components/big';
 import Router from './Router';
 
 function App() {

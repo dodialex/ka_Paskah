@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Row, Col, Container } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 
 const Card1 = ({ teks1, teks2, teks3, teks4, teks5 }) => {
     return (
