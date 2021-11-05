@@ -30,7 +30,7 @@ const H_atas = () => {
                     <Button style={insideStyles}>
                         <NavLink to='/showreel' style={link}>
                             ANIMATION SHOWREEL
-                            </NavLink>
+                        </NavLink>
                     </Button>
                 </div>
             </Parallax>
