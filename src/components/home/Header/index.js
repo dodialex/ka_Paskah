@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Navbar, Nav, NavDropdown, OverlayTrigger, Popover } from 'react-bootstrap';
-import './header.css'
-import { NavLink, Link } from 'react-router-dom'
+import { Container, Nav, Navbar, OverlayTrigger, Popover } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
+import './header.css';
 
 
 const Header = () => {
@@ -91,9 +91,9 @@ const Header = () => {
 export default Header
 
 
-const navvv = {
-    marginLeft: '50px',
-}
+// const navvv = {
+//     marginLeft: '50px',
+// }
 
 const link = {
     textDecoration: 'none',

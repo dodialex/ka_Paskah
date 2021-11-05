@@ -1,5 +1,5 @@
-import React from 'react'
-import { Container, Row, Col, Card, Button, Image } from 'react-bootstrap'
+import React from 'react';
+import { Button, Col, Row } from 'react-bootstrap';
 
 const Gambarlah = () => {
     return (
@@ -8,7 +8,7 @@ const Gambarlah = () => {
             <Row xs={1} md={2} style={row}>
                 <Col >
                     <span style={col1}>
-                        <img style={img1} src="https://cdn.pixabay.com/photo/2021/07/31/18/44/ellipse-6512786_960_720.jpg" width='115%' height='100%' />
+                        <img style={img1} src="https://cdn.pixabay.com/photo/2021/07/31/18/44/ellipse-6512786_960_720.jpg" width='115%' height='100%' alt='gambar1' />
                         <Button style={btn1}>MasterClass</Button>
                     </span>
 
@@ -17,8 +17,8 @@ const Gambarlah = () => {
 
                 <Col>
                     <span style={col2}>
-                        <img style={img2} src="https://cdn.pixabay.com/photo/2021/07/31/18/44/ellipse-6512786_960_720.jpg" width='115%' height='50%' />
-                        <img style={img2} src="https://cdn.pixabay.com/photo/2020/11/08/00/17/waterfall-5722620_960_720.jpg" width='115%' height='50%' />
+                        <img style={img2} src="https://cdn.pixabay.com/photo/2021/07/31/18/44/ellipse-6512786_960_720.jpg" width='115%' height='50%' alt='gambar2' />
+                        <img style={img2} src="https://cdn.pixabay.com/photo/2020/11/08/00/17/waterfall-5722620_960_720.jpg" width='115%' height='50%' alt='gambar3' />
                     </span>
 
                 </Col>
@@ -72,6 +72,6 @@ const col2 = {
 // const col3 = {
 //     backgroundColor: 'blue'
 // }
-const col4 = {
-    backgroundColor: 'red'
-}
+// const col4 = {
+//     backgroundColor: 'red'
+// }

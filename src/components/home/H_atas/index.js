@@ -1,9 +1,9 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
 import { Button } from 'react-bootstrap';
+import { Parallax } from 'react-parallax';
+import { NavLink } from 'react-router-dom';
 import Header from '../Header';
 import './H_atas.css';
-import { NavLink, Link } from 'react-router-dom'
 
 
 const insideStyles = {

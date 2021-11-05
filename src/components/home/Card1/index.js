@@ -1,9 +1,7 @@
-import React from 'react'
-import { Container, Card, Row, Col, CardGroup } from 'react-bootstrap'
-import './Card1.css';
 import { Player } from '@lottiefiles/react-lottie-player';
-import { Link } from 'react-router-dom';
-import { colors } from '../../../random/colors';
+import React from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
+import './Card1.css';
 
 class Card1 extends React.Component {
     constructor(props) {

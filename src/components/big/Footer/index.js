@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container, Image, Row, Col, Card, Navbar } from 'react-bootstrap'
-import { TitleFooter } from '../../small'
+import { Card, Col, Container, Navbar, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { TitleFooter } from '../../small'
 
 const Footer = ({ text1, text2, text3 }) => {
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Row, Image, Col, Container, Form, InputGroup, Button, Card } from 'react-bootstrap';
-import Mapnya from '../Mapnya'
+import { Button, Card, Col, Container, Form, InputGroup, Row } from 'react-bootstrap';
+import Mapnya from '../Mapnya';
 const Peta = () => {
     const [validated, setValidated] = useState(false);
 

@@ -1,7 +1,5 @@
-import React from 'react'
-import { Container, Card, Row, Col } from 'react-bootstrap'
-import { CardTest } from '../../small';
-import { Footer } from '../../big';
+import React from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 
 const Card2 = ({ text1, text2, text3 }) => {
     return (
