@@ -16,8 +16,8 @@ class Card1 extends React.Component {
                 <Container>
                     <Row xs={1} md={3} style={row}>
                         <Col className='tengah'>
-                            {/* <a href='https://webkapaskah.netlify.app/showreel/#logo' style={tagA}> */}
-                            <a href='http://localhost:3000/showreel/#logo' style={tagA}>
+                            <a href='showreel/#logo' style={tagA}>
+                                {/* <a href='http://localhost:3000/showreel/#logo' style={tagA}> */}
                                 <Card className='cardd' >
                                     <Player
                                         hover
@@ -36,7 +36,7 @@ class Card1 extends React.Component {
 
 
                         <Col className='tengah'>
-                            <a href='https://webkapaskah.netlify.app/showreel/#video' style={tagA}>
+                            <a href='/showreel/#video' style={tagA}>
                                 {/* <a href='http://localhost:3000/showreel/#video' style={tagA}> */}
                                 <Card className='cardd'>
                                     <Player
@@ -57,7 +57,7 @@ class Card1 extends React.Component {
 
 
                         <Col className='tengah'>
-                            <a href='https://webkapaskah.netlify.app/showreel/#graphic' style={tagA}>
+                            <a href='/showreel/#graphic' style={tagA}>
                                 {/* <a href='http://localhost:3000/showreel/#graphic' style={tagA}> */}
                                 <Card className='cardd'>
                                     <Player
