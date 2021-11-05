@@ -17,7 +17,7 @@ class Card1 extends React.Component {
                     <Row xs={1} md={3} style={row}>
                         <Col className='tengah'>
                             {/* <a href='https://webkapaskah.netlify.app/showreel/#logo' style={tagA}> */}
-                            <a href='/showreel/#logo' style={tagA}>
+                            <a href='http://localhost:3000/showreel/#logo' style={tagA}>
                                 <Card className='cardd' >
                                     <Player
                                         hover
