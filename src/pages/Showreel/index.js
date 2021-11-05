@@ -7,15 +7,15 @@ const Showreel = () => {
     return (
         <div>
             <Header />
-            <div style={teksnya}>
+            <div style={teksnya} id='video'>
                 <Tulisan teks="Video Animations" />
             </div>
             <Card1 />
-            <div style={teksnya}>
+            <div style={teksnya} id='logo'>
                 <Tulisan teks="Logo Animations" />
             </div>
             <Card1 />
-            <div style={teksnya}>
+            <div style={teksnya} id='graphic'>
                 <Tulisan teks="Graphic Design" />
             </div>
             <Card2 />

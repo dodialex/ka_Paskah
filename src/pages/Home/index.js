@@ -10,9 +10,9 @@ const Home = () => {
             <BlankAndText text2='Our animation portofolio features a selection work 
             created over the years, incluiding branded content, music, video
             and the passion project we are espesially proud of.' />
-            <Card1/>
-            <Card2/>
-            <Footer/>
+            <Card1 />
+            <Card2 />
+            <Footer />
         </div>
     )
 }

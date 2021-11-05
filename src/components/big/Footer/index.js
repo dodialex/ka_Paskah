@@ -27,11 +27,9 @@ const Footer = ({ text1, text2, text3 }) => {
                             <Link to='/' style={link}>
                                 <TitleFooter text="Dribble GIFs" />
                             </Link>
-                            <Link to='/' style={link}>
-                                <TitleFooter text="Animation blog" />
-                            </Link>
+
                         </Col>
-                        <Col style={margin} md={{ offset: 1 }}>
+                        <Col style={margin} md={{ span: 3, offset: 1 }}>
                             <TitleFooter title="Info" />
                             <Link to='/about' style={link}>
                                 <TitleFooter text="About Us" />
@@ -43,7 +41,7 @@ const Footer = ({ text1, text2, text3 }) => {
                                 <TitleFooter text="Contact Us" />
                             </Link>
                         </Col>
-                        <Col xs={{ span: 6, offset: 5 }} md={{ span: 2, offset: 1 }}>
+                        <Col xs={{ span: 6, offset: 5 }} md={{ span: 3, offset: 1 }}>
                             <TitleFooter title="Social" />
                             <Link to='https://www.youtube.com/' style={link}>
                                 <TitleFooter text="YouTube" />
@@ -146,7 +144,7 @@ const di = {
     paddingRight: '-1%'
 }
 const margin = {
-    marginRight: '-15%',
+    marginRight: '-19%',
     marginLeft: '-9%'
 }
 
