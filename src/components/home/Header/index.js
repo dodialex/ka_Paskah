@@ -50,17 +50,17 @@ const Header = () => {
                                             <Popover.Body>
                                                 <Nav.Link>
                                                     <NavLink to='/about' style={linkAbout}>
-                                                        ABOUT US
+                                                        <span className='link'>ABOUT US</span>
                                                     </NavLink>
                                                 </Nav.Link>
                                                 <Nav.Link>
                                                     <NavLink to='/team' style={linkAbout}>
-                                                        TEAM
+                                                        <span className='link'> TEAM</span>
                                                     </NavLink>
                                                 </Nav.Link>
                                                 <Nav.Link>
                                                     <NavLink to='/animationprocess' style={linkAbout}>
-                                                        ANIMATION PROCESS
+                                                        <span className='link'>ANIMATION PROCESS</span>
                                                     </NavLink>
                                                 </Nav.Link>
                                             </Popover.Body>
@@ -98,7 +98,7 @@ export default Header
 const link = {
     textDecoration: 'none',
     color: 'white',
-    fontWeight: '500'
+    fontWeight: '500',
 }
 const linkAbout = {
     textDecoration: 'none',

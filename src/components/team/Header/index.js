@@ -50,17 +50,17 @@ const Header = () => {
                                             <Popover.Body>
                                                 <Nav.Link>
                                                     <NavLink to='/about' style={link}>
-                                                        ABOUT US
+                                                        <span className='link'>ABOUT US</span>
                                                     </NavLink>
                                                 </Nav.Link>
                                                 <Nav.Link>
                                                     <NavLink to='/team' style={linkActive}>
-                                                        TEAM
+                                                        <span className='linkActive'> TEAM</span>
                                                     </NavLink>
                                                 </Nav.Link>
                                                 <Nav.Link>
                                                     <NavLink to='/animationprocess' style={link}>
-                                                        ANIMATION PROCESS
+                                                        <span className='link'>ANIMATION PROCESS</span>
                                                     </NavLink>
                                                 </Nav.Link>
                                             </Popover.Body>

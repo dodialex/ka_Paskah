@@ -12,12 +12,12 @@ const Footer = ({ text1, text2, text3 }) => {
 
                         <Col md={{ span: 3 }}>
                             <TitleFooter title="Our Work" />
-                            <Link to='/showreel' style={link}>
+                            <a href='/showreel' style={link}>
                                 <TitleFooter text="Animation Showreel" />
-                            </Link>
-                            <Link to='/portofolio' style={link}>
+                            </a>
+                            <a href='/portofolio' style={link}>
                                 <TitleFooter text="Animation Portofolio" />
-                            </Link>
+                            </a>
                             <Link to='/' style={link}>
                                 <TitleFooter text="Animation Archive" />
                             </Link>
@@ -31,15 +31,15 @@ const Footer = ({ text1, text2, text3 }) => {
                         </Col>
                         <Col style={margin} md={{ span: 3, offset: 1 }}>
                             <TitleFooter title="Info" />
-                            <Link to='/about' style={link}>
+                            <a href='/about' style={link}>
                                 <TitleFooter text="About Us" />
-                            </Link>
-                            <Link to='/animationprocess' style={link}>
+                            </a>
+                            <a href='/animationprocess' style={link}>
                                 <TitleFooter text="Animation Process" />
-                            </Link>
-                            <Link to='/contact' style={link}>
+                            </a>
+                            <a href='/contact' style={link}>
                                 <TitleFooter text="Contact Us" />
-                            </Link>
+                            </a>
                         </Col>
                         <Col xs={{ span: 6, offset: 5 }} md={{ span: 3, offset: 1 }}>
                             <TitleFooter title="Social" />
