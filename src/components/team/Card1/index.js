@@ -6,7 +6,7 @@ const Card1 = ({ src, name, teks, teks2, teks3, teks4, teks5, teks6 }) => {
         <div>
             <Container fluid>
                 <Row xs={1} md={2} style={row}>
-                    <Col md={{ offset: 2 }} xs={{ offset: 2 }} style={col1}>
+                    <Col md={{ offset: 1 }} xs={{ offset: 1 }} style={col1}>
                         <Image
                             src={src}
                             roundedCircle
@@ -32,18 +32,22 @@ export default Card1;
 const row = {
     marginRight: '0.1rem',
     marginLeft: '0.1rem',
-    marginBottom: '40px'
+    marginBottom: '40px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
 }
 const image = {
     height: '100%',
     width: '100%',
-    backgroundColor: '#d9d9d9',
-    borderWidth: 'none'
+    // backgroundColor: '#d9d9d9',
+    borderWidth: 'none',
 }
 const col1 = {
-    height: '350px',
-    width: '350px',
-    marginLeft: 'auto'
+    height: '250px',
+    width: '250px',
+    marginRight: '20px'
+
 }
 const col2 = {
 }
