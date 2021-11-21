@@ -29,19 +29,6 @@ export default Card1;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react'
 import { Container, Card, Row, Col, CardGroup } from 'react-bootstrap'
 import './Card1.css';
@@ -106,6 +93,25 @@ const di = {
     backgroundColor: 'grey',
 };
 
+
+<Col className='tengah'>
+                            <a href='/showreel/#video' style={tagA}>
+                                {/* <a href='http://localhost:3000/showreel/#video' style={tagA}> */}
+                                <Card className='cardd'>
+                                    <Player
+                                        hover
+                                        loop
+                                        src="https://assets5.lottiefiles.com/packages/lf20_dflqwg4a.json"
+                                        style={{ display: 'flex', height: '270px' }}
+                                    >
+                                    </Player>
+                                    <div style={div}>
+                                        <p style={teks1}>Video</p>
+                                        <p>Animations</p>
+                                    </div>
+                                </Card>
+                            </a>
+                        </Col>
 
 
 

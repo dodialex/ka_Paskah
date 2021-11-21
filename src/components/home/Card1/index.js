@@ -1,6 +1,7 @@
-import { Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import HoverVideoPlayer from 'react-hover-video-player';
+import { Lamp, Rocket, Tablet } from '../../../assets/mp4';
 import './Card1.css';
 
 class Card1 extends React.Component {
@@ -16,14 +17,10 @@ class Card1 extends React.Component {
                         <Col className='tengah'>
                             <a href='/showreel/#logo' style={tagA}>
                                 {/* <a href='http://localhost:3000/showreel/#logo' style={tagA}> */}
+                                <HoverVideoPlayer
+                                    videoSrc={Rocket}
+                                />
                                 <Card className='cardd' >
-                                    <Player
-                                        hover
-                                        loop
-                                        src="https://assets10.lottiefiles.com/packages/lf20_t1ga2e1n.json"
-                                        style={{ display: 'flex', height: '270px' }}
-                                    >
-                                    </Player>
                                     <div style={div}>
                                         <p style={teks1}>Logo</p>
                                         <p>Animations</p>
@@ -36,14 +33,10 @@ class Card1 extends React.Component {
                         <Col className='tengah'>
                             <a href='/showreel/#video' style={tagA}>
                                 {/* <a href='http://localhost:3000/showreel/#video' style={tagA}> */}
+                                <HoverVideoPlayer
+                                    videoSrc={Lamp}
+                                />
                                 <Card className='cardd'>
-                                    <Player
-                                        hover
-                                        loop
-                                        src="https://assets5.lottiefiles.com/packages/lf20_dflqwg4a.json"
-                                        style={{ display: 'flex', height: '270px' }}
-                                    >
-                                    </Player>
                                     <div style={div}>
                                         <p style={teks1}>Video</p>
                                         <p>Animations</p>
@@ -57,14 +50,10 @@ class Card1 extends React.Component {
                         <Col className='tengah'>
                             <a href='/showreel/#graphic' style={tagA}>
                                 {/* <a href='http://localhost:3000/showreel/#graphic' style={tagA}> */}
+                                <HoverVideoPlayer
+                                    videoSrc={Tablet}
+                                />
                                 <Card className='cardd'>
-                                    <Player
-                                        hover
-                                        loop
-                                        src="https://assets8.lottiefiles.com/packages/lf20_uujfair3.json"
-                                        style={{ display: 'flex', height: '270px' }}
-                                    >
-                                    </Player>
                                     <div style={div}>
                                         <p style={teks1}>Graphic</p>
                                         <p >Animations</p>

@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax';
 import { NavLink } from 'react-router-dom';
 import Header from '../Header';
 import './H_atas.css';
+import { gambarHome } from '../../../assets/images';
 
 
 const insideStyles = {
@@ -24,9 +25,9 @@ const H_atas = () => {
     return (
         <div>
 
-            <Parallax style={para} bgImage={''} strength={500}>
+            <Parallax style={para} bgImage={gambarHome} /*strength={10}*/ >
                 <Header className='header' />
-                <div style={{ height: 800 }}>
+                <div style={{ height: 400 }}>
                     <Button style={insideStyles}>
                         <NavLink to='/showreel' style={link}>
                             ANIMATION SHOWREEL
