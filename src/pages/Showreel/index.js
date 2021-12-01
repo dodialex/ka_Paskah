@@ -10,11 +10,11 @@ const Showreel = () => {
             <div style={teksnya} id='video'>
                 <Tulisan teks="Video Animations" />
             </div>
-            <Card1 />
+            <Card1 src="https://www.youtube.com/embed/DxfQnxU3g2Y" />
             <div style={teksnya} id='logo'>
                 <Tulisan teks="Logo Animations" />
             </div>
-            <Card1 />
+            <Card1 src="https://www.youtube.com/embed/tXO9cp-A8aM" />
             <div style={teksnya} id='graphic'>
                 <Tulisan teks="Graphic Design" />
             </div>
