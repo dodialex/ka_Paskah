@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Card1, Header } from '../../components/about';
 import { Footer } from '../../components/big';
-import { Header, Card1 } from '../../components/about';
 import { Tulisan } from '../../components/small';
 
 
